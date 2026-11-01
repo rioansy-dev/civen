@@ -5,8 +5,8 @@ set -e
 
 ROOTFS_DIR="ubuntu-rootfs"
 TARBALL="ubuntu-base-twenty.tar.gz"
-URL="https://github.com/rioansy-dev/civen/raw/refs/heads/master/ubuntu-rootfs/ubuntu-base-twenty.tar.gz
-
+URL="https://github.com/rioansy-dev/civen/raw/refs/heads/master/ubuntu-rootfs/ubuntu-base-twenty.tar.gz"
+pkg install proot -y
 echo "=== Setup Ubuntu Focal armhf Rootfs (Fix Hard Link Error) ==="
 
 # Download
